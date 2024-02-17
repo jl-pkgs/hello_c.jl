@@ -16,4 +16,4 @@ cmake ..
 make
 
 cd ..
-julia julia/hello.jl
+# julia julia/hello.jl
