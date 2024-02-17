@@ -3,8 +3,11 @@ project(hello)
 
 # set(CMAKE_CXX_STANDARD 11)
 
-# include_directories(C/include)
+include_directories(src)
+
 add_library(leaf SHARED src/leaf.c)
 
-# add_executable(hello C/main_leaf.c)
+add_executable(hello src/main_leaf.c)
+target_link_libraries(hello leaf)
+
 # add_executable(hello_array C/array.c)
