@@ -1,4 +1,6 @@
-const libleaf = "./build/libleaf.so"
+using Libdl
+const libleaf = "./build/libleaf.$dlext"
+
 
 using Parameters
 ## 因此变量名，不重要，重要的是变量的顺序
