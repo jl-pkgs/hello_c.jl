@@ -1,22 +1,17 @@
-<h1>Call c in Julia</h1>
+<h1>Call C in Julia</h1>
 
 # 1. Functions
 
-- [x] msys2 cmake编译代码
+- [x] msys2 CMake编译代码
 - [x] 使用msys2管理包
-- [x] vscode调试，支持交互式调试
-- [x] call c in Julia
+- [x] VSCode调试，支持交互式调试
+- [x] Call C in Julia
 - [x] apps发布，管理依赖项(dlls)，移植到其他电脑
 
-# 2. Example
-```bash
-cd build
-cmake ..
-make
-cd ..
+# 2. Examples
 
-julia julia/hello.jl
-```
+- use `GDAL`: [src/hello_gdal.c](src/hello_gdal.c)
+- use `OpenCV`: [src/hello_opencv.cpp](src/hello_opencv.cpp)
 
 # 3. Installation
 
